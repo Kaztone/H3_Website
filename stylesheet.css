@@ -1,0 +1,645 @@
+/*###############################################################*/
+/*Fonts*/
+/*###############################################################*/
+
+@font-face {
+    font-family: 'BrixSlab-Bold';
+    src: url('Fonts/BrixSlab-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Brix Sans Medium';
+    src: url('Fonts/Brix Sans Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Brix Sans Light';
+    src: url('Fonts/Brix Sans Light.ttf') format('truetype');
+}
+
+/*###############################################################*/
+/*HTML Tags*/
+/*###############################################################*/
+
+body, html { 
+    margin: 0; 
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    height: 4px; 
+    margin: 0; 
+    z-index: 1; 
+    background: #00555E; 
+    width: 100%; 
+    padding: 0; 
+    border-color: #00555E;
+}
+
+/*###############################################################*/
+/*Klassen*/
+/*###############################################################*/
+
+.page {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+/*###############################################################*/
+/*Header*/
+/*###############################################################*/
+
+header {
+    background: #00555E; 
+    width: 100%; 
+    height: 70px; 
+    top: 0; 
+    left: 0; 
+    position: fixed; 
+    z-index: 10; 
+    text-align: right; 
+    transition: all 200ms;
+}
+
+/*Navigationsmenu Normal*/
+header nav {
+    color: #00555E; 
+    display: inline-block;
+}
+
+@media screen and (max-width: 770px) {
+    header nav {display: none}
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    transition: all 300ms;
+    display: inline-block;
+}
+
+header nav ul li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    position: relative;
+    transition: all 300ms;
+}
+
+header nav ul li a {
+    display: inline-block;
+    margin: 0 1px 0 0;
+    padding: 25.5px;
+    float: left;
+    min-width: 120px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background: #00555E;
+    font-weight: 300;
+    transition: all 300ms;
+    font-family: 'Brix Sans Medium';
+}
+
+header nav ul li a i {
+    margin: 0 0 3px 5px;
+}
+
+header nav ul li ul {
+    overflow: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    transition: 300ms all;
+    max-height: 0;
+}
+
+header nav ul li:hover > ul {
+    max-height: 700px;
+}
+
+header nav ul li:hover > a {
+    background: #002e33;
+}
+
+header nav ul li ul li {
+    border-top: 1px solid transparent;
+}
+
+/*Logo*/
+header #logo {
+    float: left;
+    width: 60px;
+    margin: 5px 0 0 5px;
+}
+
+header #logo img {
+    width: 100%;
+    height: auto;
+}
+
+/*###############################################################*/
+/*Website*/
+/*###############################################################*/
+
+/*Home-Seite*/
+#home {
+    background: url('Pictures_Goal/_DSC4659.JPG'); 
+    background-position: center center; 
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+#home div {
+    float: left;
+    margin: 600px 0 0 50px;
+    width: 600px; 
+    height: 300px;
+}
+
+#home div img {
+     width: 100%;
+     height: 250px;
+}
+
+#home div p {
+    color: white; 
+    font-family: 'Brix Sans Medium'; 
+    font-size: 25px; 
+    text-align: center; 
+    margin: -55px 0 0 0; 
+    padding: 0 0 0 275px;
+}
+
+/*Button*/
+#home .Button {
+    width: 120px; 
+    height: 40px;
+    margin: 0; 
+    margin: 25px 0 0 360px; 
+    border: 2px solid white; 
+    text-align: center; 
+}
+
+#home .Button:hover {
+    opacity: 0.5;
+}
+
+#home div a {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0 5px 0;
+    color: white; 
+    font-family: 'Brix Sans Light'; 
+    font-size: 25px; 
+    font-weight: bold;
+}
+
+/*##############################*/
+/*Idea-Seite*/
+/*##############################*/
+#idea div {
+    width: 400px;
+    height: 50px; 
+    text-align: center; 
+    margin: 100px auto 0 auto;
+    background: #00555E;
+}
+
+#idea h2 {
+    font-family: 'Brix Sans Light'; 
+    text-transform: uppercase; 
+    color: white;
+    padding: 10px 0 0 0; 
+    font-weight: 200; 
+    letter-spacing: 3px;
+}
+
+#idea .idea {
+    width: 45%; 
+    float: left;
+    margin: 45px 0 0 5%;
+    background: #00555E;
+}
+
+#idea .idea:last-child {
+    width: 45%;
+    float: left;
+    margin: 45px 5% 0 0;
+}
+
+#idea .idea article {
+    width: 70%;
+    text-align: center;
+    margin: 100px auto 100px auto;
+    min-height: 500px;   
+}
+
+#idea .motto {
+    background-image: url('Pictures_Portraits/meisterfoto1.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#idea .idea article p {
+    font-size: 23px;
+    line-height: 38px;
+    font-family: 'Brix Sans Medium';
+    color: white;
+    width: 80%;
+    display:inline-block;
+    text-align: left;
+}
+
+#idea .motto article p {
+    display: inline-block;
+    margin: 350px auto 0 auto;
+    width: 90%; 
+    text-align: center; 
+    font-size: 30px; 
+    line-height: 35px; 
+    text-transform: uppercase;
+    color: white;
+    background: #00555E;
+    opacity: 0.8;
+    border: 1px solid black;
+    font-family: BrixSlab-Bold;
+}
+
+/*###############################*/
+/*Team-Seite*/
+/*###############################*/
+
+/*Überschrift*/
+#team .headline {
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    margin: 100px auto 0 auto;
+    background: #00555E;
+}
+
+#team .headline h2 {
+    font-family: 'Brix Sans Light';
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 0 0 0;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+#team .row {
+    width: 60%;
+    margin: 75px auto 0 auto;
+    text-align: center;
+
+}
+
+#team .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 50px;
+}
+
+#team .coach {
+    padding: 0 20%;
+    font-family: 'Brix Sans Light';
+
+}
+
+.coach img {
+    width: 100%;
+    height: auto;
+}
+
+#team .solo {
+    margin: auto;
+    width: 33%;
+    text-align: left;
+    font-family: 'Brix Sans Light';
+}
+
+#team .solo h3 {
+    text-align: center;
+}
+
+/*###############################*/
+/*H3 Meets School-Seite*/
+/*###############################*/
+#school .school {
+    width: 50%;
+    float: left; 
+    background: rgb(255,239,152);
+}
+
+#school .school:last-child {
+    width: 50%;
+    float: right;
+}
+
+#school .school article {
+    width: 70%;
+    text-align: left;
+    margin: 100px auto 100px auto;
+    min-height: 780px;
+}
+
+#school .motto {
+    background-image: url('Pictures_Abstract/.png/graffitiwall.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+#school .school article p {
+    font-size: 23px;
+    line-height: 35px;
+    font-family: 'Brix Sans Medium';
+    color: #505050;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    margin: 15px 0 15px 0;
+}
+
+#school .school article .heading {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/*Überschrift*/
+#school div {
+    width: 450px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto 34px auto;
+}
+
+#school h2 {
+    display: inline-block;
+    font-family: 'BrixSlab-Bold';
+    text-transform: uppercase;
+    color: #505050;
+    font-size: 45px;
+    margin: 34px 0 0 0;
+    letter-spacing: 2px;
+}
+
+/*Button*/
+#school .Button {
+    width: 160px;
+    height: 40px;
+    border: 2px solid #505050;
+    margin: 22px auto 0 auto;
+}
+
+#school .Button:hover {
+    opacity: 0.5;
+}
+
+#school .Button a {
+    display: inline-block;
+    padding: 8px 0 8px 0;
+    min-width: 160px;
+    color: #505050;
+    font-family: 'Brix Sans Light';
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+
+/*###############################################################*/
+/*Unsere Schulen-Seite*/
+/*###############################################################*/
+
+/*Überschrift*/
+#ourschools div {
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    margin: 100px auto 0 auto;
+    background: #00555E;
+}
+
+#ourschools h2 {
+    font-family: 'Brix Sans Light';
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 0 0 0;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+#ourschools h3 {
+    font-family: 'Brix Sans Light';
+    color: #00555E;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 80px auto 0 auto;
+}
+
+#ourschools p {
+    font-family: 'Brix Sans Light';
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin: 175px auto 0 auto;
+}
+
+/*###############################################################*/
+/*Fivers Summerdays-Seite*/
+/*###############################################################*/
+#summerdays .summerdays {
+    width: 50%;
+    float: left;
+}
+
+#summerdays .summerdays:last-child {
+    width: 50%;
+    float: right;
+    background: rgb(255,239,152);
+}
+
+#summerdays .summerdays article {
+    width: 70%;
+    text-align: left;
+    margin: 100px auto 100px auto;
+    min-height: 780px;
+}
+
+#summerdays .h3po {
+    background-image: url('Pictures_Abstract/.png/artwall.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+#summerdays .summerdays article p {
+    font-size: 23px;
+    line-height: 35px;
+    font-family: 'Brix Sans Medium';
+    color: #505050;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    margin: 15px 0 15px 0;
+}
+
+#summerdays .summerdays article .heading {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/*Überschrift*/
+#summerdays div {
+    width: 250px;
+    height: 250px;
+    text-align: left;
+    margin: 0 0 34px 0;
+}
+
+#summerdays h2 {
+    display: inline-block;
+    font-family: 'BrixSlab-Bold';
+    text-transform: uppercase;
+    color: #505050;
+    font-size: 60px;
+    margin: 29px 0 0 0;
+    letter-spacing: 8px;
+}
+
+/*Button1*/
+#summerdays .Button {
+    width: 160px;
+    height: 40px;
+    border: 2px solid #505050;
+    margin: 25px auto 0 15%;
+    float: left;
+    text-align: center;
+}
+
+#summerdays .Button1:hover {
+    opacity: 0.5;
+}
+
+#summerdays .Button a {
+    display: inline-block;
+    padding: 8px 0 8px 0;
+    min-width: 160px;
+    color: #505050;
+    font-family: 'Brix Sans Light';
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+
+/*Button2*/
+#summerdays .Button2 {
+    width: 160px;
+    height: 40px;
+    border: 2px solid #505050;
+    margin: 25px 15% 0 auto;
+    float: right;
+    text-align: center;
+}
+
+#summerdays .Button1:hover {
+    opacity: 0.5;
+}
+
+#summerdays .Button2 a {
+    display: inline-block;
+    padding: 8px 0 8px 0;
+    min-width: 160px;
+    color: #505050;
+    font-family: 'Brix Sans Light';
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+
+/*###############################################################*/
+/*Kontakt-Seite*/
+/*###############################################################*/
+
+/*Überschrift*/
+#contact .headline {
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    margin: 100px auto 0 auto;
+    background: #00555E;
+}
+
+#contact .headline h2 {
+    font-family: 'Brix Sans Light';
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 0 0 0;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+/*Kontaktdaten*/
+#contact .row {
+    width: 40%;
+    margin: 75px auto 0 auto;
+    text-align: center;
+}
+
+#contact .column {
+    float: left;
+    width: 50%;
+    font-family: 'Brix Sans Light';
+}
+
+#contact .column h3 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#contact .column p {
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+#contact .formular {
+    margin: 0 auto 0 auto;
+}
+
+#contact placeholder {
+    font-family: 'Brix Sans Light';
+}
+
+#contact textarea placeholder {
+    font-family: 'Brix Sans Light';
+}
+
+#contact .text {
+    font-family: 'Brix Sans Light';
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/*###############################*/
+/*Footer*/
+/*###############################*/
+footer {
+    bottom: 0;
+    left: 0;
+    background-color: #00555E;
+    width: 100%;
+    height: 100px;
+}

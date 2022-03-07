@@ -1,0 +1,143 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BrixSlab-Bold
+FamilyName:Brix Slab
+StyleName:Bold
+MenuName:Brix Slab Bold
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Brix Slab Bold
+WritingScript:Roman
+OutlineFileName:/Users/hoerpt/Documents/Handball3/Indesign/Summerdays 20/Flyer_Summerdays_rz1_20191008 Ordner/Document fonts/BrixSlab-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:155788
+FileModTime:403802496
+NameArray:0,Mac,4,Brix Slab Bold
+NameArray:0,Win,1,Brix Slab Bold
+NameArray:0,Win,16,Brix Slab
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/hoerpt/Documents/Handball3/Indesign/Summerdays 20/Flyer_Summerdays_rz1_20191008 Ordner/Document fonts/AdobeFnt20.lst
+FileLength:3058
+FileModTime:597099535
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BrixSansMedium
+FamilyName:BrixSansMedium
+StyleName:☞
+MenuName:BrixSansMedium
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:☞BrixSansMedium
+WritingScript:Roman
+OutlineFileName:/Users/hoerpt/Documents/Handball3/Indesign/Summerdays 20/Flyer_Summerdays_rz1_20191008 Ordner/Document fonts/Brix Sans Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:85780
+FileModTime:433236575
+NameArray:0,Mac,4,BrixSansMedium
+NameArray:0,Win,1,BrixSansMedium
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/hoerpt/Documents/Handball3/Indesign/Summerdays 20/Flyer_Summerdays_rz1_20191008 Ordner/Document fonts/AdobeFnt21.lst
+FileLength:3521
+FileModTime:597163673
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BrixSansLight
+FamilyName:BrixSansLight
+StyleName:☞
+MenuName:BrixSansLight
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:☞BrixSansLight
+WritingScript:Roman
+OutlineFileName:/Users/hoerpt/Documents/Handball3/Indesign/Summerdays 20/Flyer_Summerdays_rz1_20191008 Ordner/Document fonts/Brix Sans Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:85096
+FileModTime:433236544
+NameArray:0,Mac,4,BrixSansLight
+NameArray:0,Win,1,BrixSansLight
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BrixSlab-Light
+FamilyName:Brix Slab
+StyleName:Light
+MenuName:Brix Slab Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Brix Slab Light
+WritingScript:Roman
+OutlineFileName:/Users/hoerpt/Documents/Handball3/Indesign/Summerdays 20/Flyer_Summerdays_rz1_20191008 Ordner/Document fonts/BrixSlab-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:155704
+FileModTime:406249288
+NameArray:0,Mac,4,Brix Slab Light
+NameArray:0,Win,1,Brix Slab Light
+NameArray:0,Win,16,Brix Slab
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BrixSlab-Medium
+FamilyName:Brix Slab
+StyleName:Medium
+MenuName:Brix Slab Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Brix Slab Medium
+WritingScript:Roman
+OutlineFileName:/Users/hoerpt/Documents/Handball3/Indesign/Summerdays 20/Flyer_Summerdays_rz1_20191008 Ordner/Document fonts/BrixSlab-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:155140
+FileModTime:406249296
+NameArray:0,Mac,4,Brix Slab Medium
+NameArray:0,Win,1,Brix Slab Medium
+NameArray:0,Win,16,Brix Slab
+%EndFont
+
